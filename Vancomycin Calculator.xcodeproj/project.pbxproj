@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1D140733BF16BBB0BB2218 /* Pods_Vancomycin_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED810B47F4D88FA7695FB30 /* Pods_Vancomycin_CalculatorTests.framework */; };
+		260691C0C6D97919EFE7A9DE /* Pods_Vancomycin_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B18DC87D0BE604C3A3DE9AC /* Pods_Vancomycin_Calculator.framework */; };
+		4FA81AE31EA7F90800E45341 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA81AE21EA7F90800E45341 /* ResultsViewController.swift */; };
+		4FA81AE51EA8110A00E45341 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA81AE41EA8110A00E45341 /* Patient.swift */; };
+		4FA81AE71EA8169300E45341 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA81AE61EA8169300E45341 /* Result.swift */; };
+		4FA81AE91EA8181600E45341 /* VancomycinDosage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA81AE81EA8181600E45341 /* VancomycinDosage.swift */; };
+		6DAF95171EF5E54700677DCC /* SavedPatientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF95161EF5E54700677DCC /* SavedPatientsTableViewCell.swift */; };
+		6DAF95191EF5E6AA00677DCC /* SavedPatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF95181EF5E6AA00677DCC /* SavedPatientsViewController.swift */; };
+		6DFE68731EDCA05C001A40B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE68721EDCA05C001A40B4 /* GoogleService-Info.plist */; };
+		6DFE68751EDCA3A5001A40B4 /* ResultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFE68741EDCA3A5001A40B4 /* ResultStorage.swift */; };
+		83FC43BFA8C693226250319B /* Pods_Vancomycin_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E312E74D40C39AF22DAAB04 /* Pods_Vancomycin_CalculatorUITests.framework */; };
+		C22D2CF91EBBE5E5004094FB /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D2CF81EBBE5E5004094FB /* Double+Extensions.swift */; };
+		C2861DE01FAB5B7D00663C4B /* PatientResultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2861DDF1FAB5B7D00663C4B /* PatientResultStorage.swift */; };
+		C2BD687D1E9EC2F600A1DB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD687C1E9EC2F600A1DB6D /* AppDelegate.swift */; };
+		C2BD687F1E9EC2F600A1DB6D /* DataInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD687E1E9EC2F600A1DB6D /* DataInputViewController.swift */; };
+		C2BD68821E9EC2F700A1DB6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BD68801E9EC2F700A1DB6D /* Main.storyboard */; };
+		C2BD68841E9EC2F700A1DB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BD68831E9EC2F700A1DB6D /* Assets.xcassets */; };
+		C2BD68871E9EC2F700A1DB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BD68851E9EC2F700A1DB6D /* LaunchScreen.storyboard */; };
+		C2BD68921E9EC2F700A1DB6D /* Vancomycin_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD68911E9EC2F700A1DB6D /* Vancomycin_CalculatorTests.swift */; };
+		C2BD689D1E9EC2F700A1DB6D /* Vancomycin_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD689C1E9EC2F700A1DB6D /* Vancomycin_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2BD688E1E9EC2F700A1DB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BD68711E9EC2F600A1DB6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2BD68781E9EC2F600A1DB6D;
+			remoteInfo = "Vancomycin Calculator";
+		};
+		C2BD68991E9EC2F700A1DB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BD68711E9EC2F600A1DB6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2BD68781E9EC2F600A1DB6D;
+			remoteInfo = "Vancomycin Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E312E74D40C39AF22DAAB04 /* Pods_Vancomycin_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vancomycin_CalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		178B470F7D4114CA96A25F92 /* Pods-Vancomycin Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vancomycin Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vancomycin Calculator/Pods-Vancomycin Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		4FA81AE21EA7F90800E45341 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		4FA81AE41EA8110A00E45341 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		4FA81AE61EA8169300E45341 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		4FA81AE81EA8181600E45341 /* VancomycinDosage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VancomycinDosage.swift; sourceTree = "<group>"; };
+		6DAF95161EF5E54700677DCC /* SavedPatientsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPatientsTableViewCell.swift; sourceTree = "<group>"; };
+		6DAF95181EF5E6AA00677DCC /* SavedPatientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPatientsViewController.swift; sourceTree = "<group>"; };
+		6DFE68721EDCA05C001A40B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6DFE68741EDCA3A5001A40B4 /* ResultStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultStorage.swift; sourceTree = "<group>"; };
+		7ED810B47F4D88FA7695FB30 /* Pods_Vancomycin_CalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vancomycin_CalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B18DC87D0BE604C3A3DE9AC /* Pods_Vancomycin_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vancomycin_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43A5560E14337707F8B576D /* Pods-Vancomycin CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vancomycin CalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vancomycin CalculatorTests/Pods-Vancomycin CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B6CB9BC01D9660EB0EDD08 /* Pods-Vancomycin CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vancomycin CalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vancomycin CalculatorUITests/Pods-Vancomycin CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C22D2CF81EBBE5E5004094FB /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		C2861DDF1FAB5B7D00663C4B /* PatientResultStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientResultStorage.swift; sourceTree = "<group>"; };
+		C2BD68791E9EC2F600A1DB6D /* Vancomycin Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vancomycin Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BD687C1E9EC2F600A1DB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2BD687E1E9EC2F600A1DB6D /* DataInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputViewController.swift; sourceTree = "<group>"; };
+		C2BD68811E9EC2F700A1DB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2BD68831E9EC2F700A1DB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2BD68861E9EC2F700A1DB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2BD68881E9EC2F700A1DB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BD688D1E9EC2F700A1DB6D /* Vancomycin CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vancomycin CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BD68911E9EC2F700A1DB6D /* Vancomycin_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vancomycin_CalculatorTests.swift; sourceTree = "<group>"; };
+		C2BD68931E9EC2F700A1DB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BD68981E9EC2F700A1DB6D /* Vancomycin CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vancomycin CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BD689C1E9EC2F700A1DB6D /* Vancomycin_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vancomycin_CalculatorUITests.swift; sourceTree = "<group>"; };
+		C2BD689E1E9EC2F700A1DB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE213DEC66C89CF3B3B01329 /* Pods-Vancomycin CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vancomycin CalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vancomycin CalculatorTests/Pods-Vancomycin CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE0EA2DA3204225BB06E4F59 /* Pods-Vancomycin Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vancomycin Calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vancomycin Calculator/Pods-Vancomycin Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		EE60975C7D909CB7A680B91F /* Pods-Vancomycin CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vancomycin CalculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vancomycin CalculatorUITests/Pods-Vancomycin CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2BD68761E9EC2F600A1DB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260691C0C6D97919EFE7A9DE /* Pods_Vancomycin_Calculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD688A1E9EC2F700A1DB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1D140733BF16BBB0BB2218 /* Pods_Vancomycin_CalculatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD68951E9EC2F700A1DB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FC43BFA8C693226250319B /* Pods_Vancomycin_CalculatorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790D3109F6C244E883A25643 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EA2DA3204225BB06E4F59 /* Pods-Vancomycin Calculator.debug.xcconfig */,
+				178B470F7D4114CA96A25F92 /* Pods-Vancomycin Calculator.release.xcconfig */,
+				A43A5560E14337707F8B576D /* Pods-Vancomycin CalculatorTests.debug.xcconfig */,
+				CE213DEC66C89CF3B3B01329 /* Pods-Vancomycin CalculatorTests.release.xcconfig */,
+				EE60975C7D909CB7A680B91F /* Pods-Vancomycin CalculatorUITests.debug.xcconfig */,
+				C1B6CB9BC01D9660EB0EDD08 /* Pods-Vancomycin CalculatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2BD68701E9EC2F600A1DB6D = {
+			isa = PBXGroup;
+			children = (
+				C2BD687B1E9EC2F600A1DB6D /* Vancomycin Calculator */,
+				C2BD68901E9EC2F700A1DB6D /* Vancomycin CalculatorTests */,
+				C2BD689B1E9EC2F700A1DB6D /* Vancomycin CalculatorUITests */,
+				C2BD687A1E9EC2F600A1DB6D /* Products */,
+				790D3109F6C244E883A25643 /* Pods */,
+				C578219E18BCEC8C9F75F624 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2BD687A1E9EC2F600A1DB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD68791E9EC2F600A1DB6D /* Vancomycin Calculator.app */,
+				C2BD688D1E9EC2F700A1DB6D /* Vancomycin CalculatorTests.xctest */,
+				C2BD68981E9EC2F700A1DB6D /* Vancomycin CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BD687B1E9EC2F600A1DB6D /* Vancomycin Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				6DFE68721EDCA05C001A40B4 /* GoogleService-Info.plist */,
+				C2BD687C1E9EC2F600A1DB6D /* AppDelegate.swift */,
+				C2BD687E1E9EC2F600A1DB6D /* DataInputViewController.swift */,
+				6DFE68741EDCA3A5001A40B4 /* ResultStorage.swift */,
+				C2861DDF1FAB5B7D00663C4B /* PatientResultStorage.swift */,
+				4FA81AE81EA8181600E45341 /* VancomycinDosage.swift */,
+				C22D2CF81EBBE5E5004094FB /* Double+Extensions.swift */,
+				4FA81AE41EA8110A00E45341 /* Patient.swift */,
+				4FA81AE61EA8169300E45341 /* Result.swift */,
+				C2BD68801E9EC2F700A1DB6D /* Main.storyboard */,
+				4FA81AE21EA7F90800E45341 /* ResultsViewController.swift */,
+				C2BD68831E9EC2F700A1DB6D /* Assets.xcassets */,
+				C2BD68851E9EC2F700A1DB6D /* LaunchScreen.storyboard */,
+				C2BD68881E9EC2F700A1DB6D /* Info.plist */,
+				6DAF95161EF5E54700677DCC /* SavedPatientsTableViewCell.swift */,
+				6DAF95181EF5E6AA00677DCC /* SavedPatientsViewController.swift */,
+			);
+			path = "Vancomycin Calculator";
+			sourceTree = "<group>";
+		};
+		C2BD68901E9EC2F700A1DB6D /* Vancomycin CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD68911E9EC2F700A1DB6D /* Vancomycin_CalculatorTests.swift */,
+				C2BD68931E9EC2F700A1DB6D /* Info.plist */,
+			);
+			path = "Vancomycin CalculatorTests";
+			sourceTree = "<group>";
+		};
+		C2BD689B1E9EC2F700A1DB6D /* Vancomycin CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD689C1E9EC2F700A1DB6D /* Vancomycin_CalculatorUITests.swift */,
+				C2BD689E1E9EC2F700A1DB6D /* Info.plist */,
+			);
+			path = "Vancomycin CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		C578219E18BCEC8C9F75F624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B18DC87D0BE604C3A3DE9AC /* Pods_Vancomycin_Calculator.framework */,
+				7ED810B47F4D88FA7695FB30 /* Pods_Vancomycin_CalculatorTests.framework */,
+				0E312E74D40C39AF22DAAB04 /* Pods_Vancomycin_CalculatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2BD68781E9EC2F600A1DB6D /* Vancomycin Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BD68A11E9EC2F700A1DB6D /* Build configuration list for PBXNativeTarget "Vancomycin Calculator" */;
+			buildPhases = (
+				B575D0A056CA3D802DFFBF79 /* [CP] Check Pods Manifest.lock */,
+				C2BD68751E9EC2F600A1DB6D /* Sources */,
+				C2BD68761E9EC2F600A1DB6D /* Frameworks */,
+				C2BD68771E9EC2F600A1DB6D /* Resources */,
+				8C95AF1C731AF43A8BD66806 /* [CP] Embed Pods Frameworks */,
+				87EDD90AA1116E8C225AD17A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vancomycin Calculator";
+			productName = "Vancomycin Calculator";
+			productReference = C2BD68791E9EC2F600A1DB6D /* Vancomycin Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2BD688C1E9EC2F700A1DB6D /* Vancomycin CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BD68A41E9EC2F700A1DB6D /* Build configuration list for PBXNativeTarget "Vancomycin CalculatorTests" */;
+			buildPhases = (
+				5F2EEAA482C3F2C1A55A98F3 /* [CP] Check Pods Manifest.lock */,
+				C2BD68891E9EC2F700A1DB6D /* Sources */,
+				C2BD688A1E9EC2F700A1DB6D /* Frameworks */,
+				C2BD688B1E9EC2F700A1DB6D /* Resources */,
+				41A3C4E8A566A20F489CC93E /* [CP] Embed Pods Frameworks */,
+				ABAFED283E1E49D33D03C593 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2BD688F1E9EC2F700A1DB6D /* PBXTargetDependency */,
+			);
+			name = "Vancomycin CalculatorTests";
+			productName = "Vancomycin CalculatorTests";
+			productReference = C2BD688D1E9EC2F700A1DB6D /* Vancomycin CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2BD68971E9EC2F700A1DB6D /* Vancomycin CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BD68A71E9EC2F700A1DB6D /* Build configuration list for PBXNativeTarget "Vancomycin CalculatorUITests" */;
+			buildPhases = (
+				87B86694912342472CE98F5D /* [CP] Check Pods Manifest.lock */,
+				C2BD68941E9EC2F700A1DB6D /* Sources */,
+				C2BD68951E9EC2F700A1DB6D /* Frameworks */,
+				C2BD68961E9EC2F700A1DB6D /* Resources */,
+				F53F2688F06F3DFC2BDE0B1B /* [CP] Embed Pods Frameworks */,
+				42B91F6E1F3FB94907A3F57F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2BD689A1E9EC2F700A1DB6D /* PBXTargetDependency */,
+			);
+			name = "Vancomycin CalculatorUITests";
+			productName = "Vancomycin CalculatorUITests";
+			productReference = C2BD68981E9EC2F700A1DB6D /* Vancomycin CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2BD68711E9EC2F600A1DB6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Neha Thakore";
+				TargetAttributes = {
+					C2BD68781E9EC2F600A1DB6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VW3L3JGJL6;
+						ProvisioningStyle = Automatic;
+					};
+					C2BD688C1E9EC2F700A1DB6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2BD68781E9EC2F600A1DB6D;
+					};
+					C2BD68971E9EC2F700A1DB6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2BD68781E9EC2F600A1DB6D;
+					};
+				};
+			};
+			buildConfigurationList = C2BD68741E9EC2F600A1DB6D /* Build configuration list for PBXProject "Vancomycin Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2BD68701E9EC2F600A1DB6D;
+			productRefGroup = C2BD687A1E9EC2F600A1DB6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2BD68781E9EC2F600A1DB6D /* Vancomycin Calculator */,
+				C2BD688C1E9EC2F700A1DB6D /* Vancomycin CalculatorTests */,
+				C2BD68971E9EC2F700A1DB6D /* Vancomycin CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2BD68771E9EC2F600A1DB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BD68871E9EC2F700A1DB6D /* LaunchScreen.storyboard in Resources */,
+				6DFE68731EDCA05C001A40B4 /* GoogleService-Info.plist in Resources */,
+				C2BD68841E9EC2F700A1DB6D /* Assets.xcassets in Resources */,
+				C2BD68821E9EC2F700A1DB6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD688B1E9EC2F700A1DB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD68961E9EC2F700A1DB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41A3C4E8A566A20F489CC93E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vancomycin CalculatorTests/Pods-Vancomycin CalculatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42B91F6E1F3FB94907A3F57F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vancomycin CalculatorUITests/Pods-Vancomycin CalculatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2EEAA482C3F2C1A55A98F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vancomycin CalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87B86694912342472CE98F5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vancomycin CalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87EDD90AA1116E8C225AD17A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vancomycin Calculator/Pods-Vancomycin Calculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C95AF1C731AF43A8BD66806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vancomycin Calculator/Pods-Vancomycin Calculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ElasticTransition/ElasticTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimation/MotionAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/TKSubmitTransition/TKSubmitTransition.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ElasticTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKSubmitTransition.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vancomycin Calculator/Pods-Vancomycin Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAFED283E1E49D33D03C593 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vancomycin CalculatorTests/Pods-Vancomycin CalculatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B575D0A056CA3D802DFFBF79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vancomycin Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53F2688F06F3DFC2BDE0B1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vancomycin CalculatorUITests/Pods-Vancomycin CalculatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2BD68751E9EC2F600A1DB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BD687F1E9EC2F600A1DB6D /* DataInputViewController.swift in Sources */,
+				4FA81AE71EA8169300E45341 /* Result.swift in Sources */,
+				C2861DE01FAB5B7D00663C4B /* PatientResultStorage.swift in Sources */,
+				6DFE68751EDCA3A5001A40B4 /* ResultStorage.swift in Sources */,
+				C22D2CF91EBBE5E5004094FB /* Double+Extensions.swift in Sources */,
+				6DAF95171EF5E54700677DCC /* SavedPatientsTableViewCell.swift in Sources */,
+				4FA81AE51EA8110A00E45341 /* Patient.swift in Sources */,
+				C2BD687D1E9EC2F600A1DB6D /* AppDelegate.swift in Sources */,
+				4FA81AE31EA7F90800E45341 /* ResultsViewController.swift in Sources */,
+				6DAF95191EF5E6AA00677DCC /* SavedPatientsViewController.swift in Sources */,
+				4FA81AE91EA8181600E45341 /* VancomycinDosage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD68891E9EC2F700A1DB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BD68921E9EC2F700A1DB6D /* Vancomycin_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD68941E9EC2F700A1DB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BD689D1E9EC2F700A1DB6D /* Vancomycin_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2BD688F1E9EC2F700A1DB6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2BD68781E9EC2F600A1DB6D /* Vancomycin Calculator */;
+			targetProxy = C2BD688E1E9EC2F700A1DB6D /* PBXContainerItemProxy */;
+		};
+		C2BD689A1E9EC2F700A1DB6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2BD68781E9EC2F600A1DB6D /* Vancomycin Calculator */;
+			targetProxy = C2BD68991E9EC2F700A1DB6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2BD68801E9EC2F700A1DB6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2BD68811E9EC2F700A1DB6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2BD68851E9EC2F700A1DB6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2BD68861E9EC2F700A1DB6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2BD689F1E9EC2F700A1DB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2BD68A01E9EC2F700A1DB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2BD68A21E9EC2F700A1DB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0EA2DA3204225BB06E4F59 /* Pods-Vancomycin Calculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VW3L3JGJL6;
+				INFOPLIST_FILE = "Vancomycin Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NehaThakore.VancoDose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C2BD68A31E9EC2F700A1DB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178B470F7D4114CA96A25F92 /* Pods-Vancomycin Calculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VW3L3JGJL6;
+				INFOPLIST_FILE = "Vancomycin Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NehaThakore.VancoDose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C2BD68A51E9EC2F700A1DB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43A5560E14337707F8B576D /* Pods-Vancomycin CalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vancomycin CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.Vancomycin-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vancomycin Calculator.app/Vancomycin Calculator";
+			};
+			name = Debug;
+		};
+		C2BD68A61E9EC2F700A1DB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE213DEC66C89CF3B3B01329 /* Pods-Vancomycin CalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vancomycin CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.Vancomycin-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vancomycin Calculator.app/Vancomycin Calculator";
+			};
+			name = Release;
+		};
+		C2BD68A81E9EC2F700A1DB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE60975C7D909CB7A680B91F /* Pods-Vancomycin CalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Vancomycin CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.Vancomycin-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Vancomycin Calculator";
+			};
+			name = Debug;
+		};
+		C2BD68A91E9EC2F700A1DB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B6CB9BC01D9660EB0EDD08 /* Pods-Vancomycin CalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Vancomycin CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.Vancomycin-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Vancomycin Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2BD68741E9EC2F600A1DB6D /* Build configuration list for PBXProject "Vancomycin Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BD689F1E9EC2F700A1DB6D /* Debug */,
+				C2BD68A01E9EC2F700A1DB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BD68A11E9EC2F700A1DB6D /* Build configuration list for PBXNativeTarget "Vancomycin Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BD68A21E9EC2F700A1DB6D /* Debug */,
+				C2BD68A31E9EC2F700A1DB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BD68A41E9EC2F700A1DB6D /* Build configuration list for PBXNativeTarget "Vancomycin CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BD68A51E9EC2F700A1DB6D /* Debug */,
+				C2BD68A61E9EC2F700A1DB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BD68A71E9EC2F700A1DB6D /* Build configuration list for PBXNativeTarget "Vancomycin CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BD68A81E9EC2F700A1DB6D /* Debug */,
+				C2BD68A91E9EC2F700A1DB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2BD68711E9EC2F600A1DB6D /* Project object */;
+}

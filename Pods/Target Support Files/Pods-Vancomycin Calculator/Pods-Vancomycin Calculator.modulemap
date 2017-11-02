@@ -1,0 +1,6 @@
+framework module Pods_Vancomycin_Calculator {
+  umbrella header "Pods-Vancomycin Calculator-umbrella.h"
+
+  export *
+  module * { export * }
+}
