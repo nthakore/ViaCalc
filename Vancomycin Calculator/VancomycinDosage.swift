@@ -9,6 +9,7 @@
 import UIKit
 
 struct VancomycinDosage {
+    
     fileprivate let idealBodyWeightHeightMultiplier = 0.9
     fileprivate let idealBodyWeightMaleOffset = Double(88)
     fileprivate let idealBodyWeightFemaleOffset = Double(92)
