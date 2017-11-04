@@ -10,11 +10,9 @@ import UIKit
 
 struct Result {
     var patientInitials: String
-    var crcl: Double
-    var loadingDose: Double
-    var traditionalDosingAmount: String
-    var traditionalDosingInterval: String
-    var highDosingAmount: String
-    var highDosingInterval: String
+    var idealBodyWeight: Double
+    var bodyMassIndex: Double
+    var basalMetabolicRate: Double
+    var bodySurfaceArea: Double
     var uniqueIdentifier: String
 }

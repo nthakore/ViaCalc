@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9mi-ec-kj8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9mi-ec-kj8">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -30,8 +30,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNK-qb-G8F">
                                 <rect key="frame" x="16" y="0.0" width="343" height="618"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="aRc-07-jvE">
-                                        <rect key="frame" x="0.0" y="60" width="343" height="429"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="aRc-07-jvE">
+                                        <rect key="frame" x="0.0" y="60" width="343" height="479"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nmd-3e-fC8" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="49"/>
@@ -60,7 +60,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cYS-2T-kLG" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                <rect key="frame" x="0.0" y="79" width="343" height="48.5"/>
+                                                <rect key="frame" x="0.0" y="89" width="343" height="48.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -86,7 +86,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hN6-im-FQ3" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                <rect key="frame" x="0.0" y="157.5" width="343" height="49"/>
+                                                <rect key="frame" x="0.0" y="177.5" width="343" height="49"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -112,7 +112,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LCh-ak-yq7" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                <rect key="frame" x="0.0" y="236.5" width="343" height="48.5"/>
+                                                <rect key="frame" x="0.0" y="266.5" width="343" height="48.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
@@ -138,7 +138,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="nQS-de-TQn">
-                                                <rect key="frame" x="0.0" y="315" width="343" height="39"/>
+                                                <rect key="frame" x="0.0" y="355" width="343" height="39"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seH-3m-5JJ">
                                                         <rect key="frame" x="0.0" y="0.0" width="74.5" height="39"/>
@@ -173,7 +173,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="z6a-9L-IdZ">
-                                                <rect key="frame" x="0.0" y="384" width="343" height="45"/>
+                                                <rect key="frame" x="0.0" y="434" width="343" height="45"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkV-qV-zqj" customClass="TKTransitionSubmitButton" customModule="TKSubmitTransition">
                                                         <rect key="frame" x="0.0" y="0.0" width="166.5" height="45"/>
@@ -349,13 +349,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="basalMetabolicRateField" destination="uXY-e8-RCB" id="UuO-R3-jhH"/>
+                        <outlet property="bodyMassIndexField" destination="sLh-LW-U9p" id="FnL-BK-rvG"/>
+                        <outlet property="bodySurfaceAreaField" destination="En7-AU-8EE" id="dtH-83-ifn"/>
                         <outlet property="closeButton" destination="znb-P9-txw" id="iAn-Np-IPM"/>
-                        <outlet property="crclField" destination="gtX-NG-qKD" id="gGl-b2-vxb"/>
-                        <outlet property="highDoseAndIntervalField" destination="En7-AU-8EE" id="D1y-6z-Lyw"/>
-                        <outlet property="loadingDoseField" destination="sLh-LW-U9p" id="uiA-TZ-lMI"/>
+                        <outlet property="idealBodyWeightField" destination="gtX-NG-qKD" id="wPX-RB-nyF"/>
                         <outlet property="patientInitialsField" destination="xJ6-lp-Ifs" id="iNL-Zt-P6X"/>
                         <outlet property="saveButton" destination="MOV-VN-N2n" id="XU5-54-FFQ"/>
-                        <outlet property="traditionalDoseAndIntervalField" destination="uXY-e8-RCB" id="Ex7-jx-ccq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tXe-Su-JNa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -387,7 +387,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFD-vk-yse">
-                                                    <rect key="frame" x="24" y="11" width="295" height="21"/>
+                                                    <rect key="frame" x="31" y="11" width="281" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                     <color key="textColor" red="1" green="0.39075020770000002" blue="0.70690715829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>

@@ -31,7 +31,7 @@ class PatientResultStorage: ResultStorage {
         }
         
         do {
-            try db.executeUpdate("create table patients(patientInitials text, crcl double, loadingDose double, traditionalDosingAmount text, traditionalDosingInterval text, highDosingAmount text, highDosingInterval text, uniqueIdentifier text)", values: nil)
+            try db.executeUpdate("create table patients(patientInitials text, idealBodyWeight double, bodyMassIndex double, basalMetabolicRate double, bodySurfaceArea double, uniqueIdentifier text)", values: nil)
         } catch {
             print("failed: \(error.localizedDescription)")
         }
@@ -45,7 +45,7 @@ class PatientResultStorage: ResultStorage {
         }
         
         do {
-            try db.executeUpdate("insert into patients(patientInitials, crcl, loadingDose, traditionalDosingAmount, traditionalDosingInterval, highDosingAmount, highDosingInterval, uniqueIdentifier) values(?, ?, ?, ?, ?, ?, ?, ?)", values: [result.patientInitials, result.crcl, result.loadingDose,result.traditionalDosingAmount, result.traditionalDosingInterval, result.highDosingAmount, result.highDosingInterval, result.uniqueIdentifier])
+            try db.executeUpdate("insert into patients(patientInitials, idealBodyWeight, bodyMassIndex, basalMetabolicRate, bodySurfaceArea, uniqueIdentifier) values(?, ?, ?, ?, ?, ?)", values: [result.patientInitials, result.idealBodyWeight, result.bodyMassIndex, result.basalMetabolicRate, result.bodySurfaceArea, result.uniqueIdentifier])
         } catch {
             print("failed: \(error.localizedDescription)")
         }
@@ -62,8 +62,8 @@ class PatientResultStorage: ResultStorage {
         do {
             let result = try db.executeQuery("select * from patients", values: nil)
             while result.next() {
-                if let initials = result.string(forColumn: "patientInitials"), let traditionalAmount = result.string(forColumn: "traditionalDosingAmount"), let traditionalInterval = result.string(forColumn: "traditionalDosingInterval"), let highAmount = result.string(forColumn: "highDosingAmount"), let highInterval = result.string(forColumn: "highDosingInterval"), let uniqueIdentifier = result.string(forColumn: "uniqueIdentifier") {
-                    let patientResult = Result(patientInitials: initials, crcl: result.double(forColumn: "crcl"), loadingDose: result.double(forColumn: "loadingDose"), traditionalDosingAmount: traditionalAmount, traditionalDosingInterval: traditionalInterval, highDosingAmount: highAmount, highDosingInterval: highInterval, uniqueIdentifier: uniqueIdentifier)
+                if let initials = result.string(forColumn: "patientInitials"), let uniqueIdentifier = result.string(forColumn: "uniqueIdentifier") {
+                    let patientResult = Result(patientInitials: initials, idealBodyWeight: result.double(forColumn: "idealBodyWeight"), bodyMassIndex: result.double(forColumn: "bodyMassIndex"), basalMetabolicRate: result.double(forColumn: "basalMetabolicRate"), bodySurfaceArea: result.double(forColumn: "bodySurfaceArea"), uniqueIdentifier: uniqueIdentifier)
                     results.append(patientResult)
                 }
             }

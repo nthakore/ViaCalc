@@ -12,13 +12,12 @@
 		4FA81AE31EA7F90800E45341 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA81AE21EA7F90800E45341 /* ResultsViewController.swift */; };
 		4FA81AE51EA8110A00E45341 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA81AE41EA8110A00E45341 /* Patient.swift */; };
 		4FA81AE71EA8169300E45341 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA81AE61EA8169300E45341 /* Result.swift */; };
-		4FA81AE91EA8181600E45341 /* VancomycinDosage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA81AE81EA8181600E45341 /* VancomycinDosage.swift */; };
 		6DAF95171EF5E54700677DCC /* SavedPatientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF95161EF5E54700677DCC /* SavedPatientsTableViewCell.swift */; };
 		6DAF95191EF5E6AA00677DCC /* SavedPatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF95181EF5E6AA00677DCC /* SavedPatientsViewController.swift */; };
 		6DFE68731EDCA05C001A40B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE68721EDCA05C001A40B4 /* GoogleService-Info.plist */; };
 		6DFE68751EDCA3A5001A40B4 /* ResultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFE68741EDCA3A5001A40B4 /* ResultStorage.swift */; };
 		83FC43BFA8C693226250319B /* Pods_Vancomycin_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E312E74D40C39AF22DAAB04 /* Pods_Vancomycin_CalculatorUITests.framework */; };
-		C22D2CF91EBBE5E5004094FB /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D2CF81EBBE5E5004094FB /* Double+Extensions.swift */; };
+		C21A82771FAE2AD200CC9E08 /* PatientCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21A82761FAE2AD200CC9E08 /* PatientCalculations.swift */; };
 		C2861DE01FAB5B7D00663C4B /* PatientResultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2861DDF1FAB5B7D00663C4B /* PatientResultStorage.swift */; };
 		C2BD687D1E9EC2F600A1DB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD687C1E9EC2F600A1DB6D /* AppDelegate.swift */; };
 		C2BD687F1E9EC2F600A1DB6D /* DataInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD687E1E9EC2F600A1DB6D /* DataInputViewController.swift */; };
@@ -52,7 +51,6 @@
 		4FA81AE21EA7F90800E45341 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		4FA81AE41EA8110A00E45341 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		4FA81AE61EA8169300E45341 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		4FA81AE81EA8181600E45341 /* VancomycinDosage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VancomycinDosage.swift; sourceTree = "<group>"; };
 		6DAF95161EF5E54700677DCC /* SavedPatientsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPatientsTableViewCell.swift; sourceTree = "<group>"; };
 		6DAF95181EF5E6AA00677DCC /* SavedPatientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPatientsViewController.swift; sourceTree = "<group>"; };
 		6DFE68721EDCA05C001A40B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -61,7 +59,7 @@
 		8B18DC87D0BE604C3A3DE9AC /* Pods_Vancomycin_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vancomycin_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43A5560E14337707F8B576D /* Pods-Vancomycin CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vancomycin CalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vancomycin CalculatorTests/Pods-Vancomycin CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1B6CB9BC01D9660EB0EDD08 /* Pods-Vancomycin CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vancomycin CalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vancomycin CalculatorUITests/Pods-Vancomycin CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C22D2CF81EBBE5E5004094FB /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		C21A82761FAE2AD200CC9E08 /* PatientCalculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCalculations.swift; sourceTree = "<group>"; };
 		C2861DDF1FAB5B7D00663C4B /* PatientResultStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientResultStorage.swift; sourceTree = "<group>"; };
 		C2BD68791E9EC2F600A1DB6D /* Vancomycin Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vancomycin Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BD687C1E9EC2F600A1DB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,8 +150,7 @@
 				C2BD687E1E9EC2F600A1DB6D /* DataInputViewController.swift */,
 				6DFE68741EDCA3A5001A40B4 /* ResultStorage.swift */,
 				C2861DDF1FAB5B7D00663C4B /* PatientResultStorage.swift */,
-				4FA81AE81EA8181600E45341 /* VancomycinDosage.swift */,
-				C22D2CF81EBBE5E5004094FB /* Double+Extensions.swift */,
+				C21A82761FAE2AD200CC9E08 /* PatientCalculations.swift */,
 				4FA81AE41EA8110A00E45341 /* Patient.swift */,
 				4FA81AE61EA8169300E45341 /* Result.swift */,
 				C2BD68801E9EC2F700A1DB6D /* Main.storyboard */,
@@ -501,14 +498,13 @@
 				C2BD687F1E9EC2F600A1DB6D /* DataInputViewController.swift in Sources */,
 				4FA81AE71EA8169300E45341 /* Result.swift in Sources */,
 				C2861DE01FAB5B7D00663C4B /* PatientResultStorage.swift in Sources */,
+				C21A82771FAE2AD200CC9E08 /* PatientCalculations.swift in Sources */,
 				6DFE68751EDCA3A5001A40B4 /* ResultStorage.swift in Sources */,
-				C22D2CF91EBBE5E5004094FB /* Double+Extensions.swift in Sources */,
 				6DAF95171EF5E54700677DCC /* SavedPatientsTableViewCell.swift in Sources */,
 				4FA81AE51EA8110A00E45341 /* Patient.swift in Sources */,
 				C2BD687D1E9EC2F600A1DB6D /* AppDelegate.swift in Sources */,
 				4FA81AE31EA7F90800E45341 /* ResultsViewController.swift in Sources */,
 				6DAF95191EF5E6AA00677DCC /* SavedPatientsViewController.swift in Sources */,
-				4FA81AE91EA8181600E45341 /* VancomycinDosage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

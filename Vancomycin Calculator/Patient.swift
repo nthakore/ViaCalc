@@ -12,7 +12,7 @@ struct Patient {
     var patientInitials: String
     var weight: Double
     var height: Double
-    var age: Int
+    var age: Double
     var isMaleGender: Bool
 }
 

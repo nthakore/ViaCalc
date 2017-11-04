@@ -62,13 +62,13 @@ class DataInputViewController: UIViewController {
             let ageText = ageField.text,
             let weightDouble = Double(weightText),
             let heightDouble = Double(heightText),
-            let ageInt = Int(ageText),
+            let ageDouble = Double(ageText),
             maleButton.isSelected || femaleButton.isSelected {
             calculateButton.startLoadingAnimation()
             
-            let newPatient = Patient(patientInitials: patientInitialsText, weight: weightDouble, height: heightDouble, age: ageInt, isMaleGender: maleButton.isSelected)
-            let vancDosage = VancomycinDosage()
-            let newResult = vancDosage.calculateResultForPatient(patient: newPatient)
+            let newPatient = Patient(patientInitials: patientInitialsText, weight: weightDouble, height: heightDouble, age: ageDouble, isMaleGender: maleButton.isSelected)
+            let patientCalc = PatientCalculations()
+            let newResult = patientCalc.calculateResultForPatient(patient: newPatient)
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             if let resultsController = storyboard.instantiateViewController(withIdentifier: "ResultsViewController") as? ResultsViewController {
